@@ -1,0 +1,27 @@
+body {
+  width:100%;
+  background-color: #aa6666;
+  font-family: arial, sans-serif;
+  
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.artist_name {
+  text-align: center;
+  width: 500px;
+  color: #000000;
+  margin: 20px 0 0 0;
+  background-color: #DDDDDD;
+  
+  border: 7px solid #B71F45;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    border: 3px solid #FFF;
+}
