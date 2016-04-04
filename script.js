@@ -23,6 +23,7 @@ $(document).ready(function() {
     /* This will add the artists to the page */
     for(var x=0; x < artists.length; x++){
         
+  
         $('#artists').append(
           $('<div/>')
             .addClass("artist_name")
@@ -36,7 +37,7 @@ $(document).ready(function() {
               .addClass("artist_image")
               .html()
             ); 
-            
+            console.log(kanye.img);
         var albumString = "Albums include: ";
         /* TODO: Make a loop to add the album names to the albumString variable */
         
@@ -44,7 +45,7 @@ $(document).ready(function() {
          $('#' + artists[x].id).append(
             $('<div/>')
               .addClass("albums")
-              .html(albumString)
+              .html(artists[x].albums)
             );    
         
         /* TODO: Make the artist video show up and be clickable */
